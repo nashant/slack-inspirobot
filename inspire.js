@@ -1,6 +1,6 @@
 const http = require('http')
 
-const inspirme = (request, response) => {
+const inspireme = (request, response) => {
   var url = 'http://inspirobot.me/api?generate=true';
 
   http.get(url, res => {
